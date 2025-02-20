@@ -1,0 +1,183 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    --fuenteBreaking: 'fuenteBB', sefif;
+}
+
+@font-face {
+    font-family: 'fuenteBB';
+    src: url(../fonts/Breaking\ Bad.ttf) format('truetype');
+}
+
+body{
+    font-family: var('fuenteBB');
+}
+
+.tipografia {
+    font-family: var('fuenteBB');
+}
+
+.fondo_pagina {
+    background-image: url(../img/fondo.jpg);
+    background-size: 100vmax;
+}
+
+.fondo_br {
+    background-image: url(../img/logo.PNG);
+    background-size: 200px;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 2rem;
+
+}
+
+#fuente_pagina {
+    font-family: var('fuenteBB');
+    color: white;
+    text-align: center;
+    margin: 2rem;
+}
+
+#poster {
+    height: 300px;
+    width: 700px;
+    border-width: 10px;
+    border-color: brown;
+    border-style: outset;
+    border-radius: 22px;
+    
+}
+
+.div_centrado {
+    text-align: center;
+}
+
+.fondo_formulario {
+    background-color: rgba(0, 0, 0, 0.374);
+    font-family: var('fuenteBB');
+    color: white;
+    padding: 1rem;
+    width: 50vmax
+}
+
+.borde_form {
+    border-radius: 2px;
+    border-color: white;
+    border-width: 2px;
+}
+
+.largo_form {
+    width: 25vmax;
+    margin-top: 1rem;
+}
+
+.margen {
+    margin-top: 1rem;
+}
+
+.largo_texto {
+    width: 49vmax;
+    height: 5rem;
+}
+
+.color_fondo_pagina {
+    background-color: #708132;
+}
+
+.tipografia_resto {
+
+    font-family: Helvetica, sans-serif;
+}
+
+.letra_grande {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.letra_pequeña {
+    font-size: 10px;
+    margin-bottom: 0;
+}
+
+.cabecera {
+    background-image: url(../img/cabecera.png);
+    background-size: 500px;
+    width: 450px;
+    height: 220px;
+    margin: auto;
+}
+
+table {
+    border: 3px solid black;
+    background-color: black;
+    margin: auto;
+    border-spacing: 0.4rem;
+    
+}
+
+td {
+    background-color: #b7db21;
+    width: 80px;
+    height: 70px;
+    empty-cells: hide;
+    text-align: center;
+}
+
+.padding_top {
+    padding-top: 1rem;
+}
+
+.padding_bottom {
+    padding-bottom: 1rem;
+}
+
+.color_verdeW {
+    background-color: #94e75c;
+}
+
+.color_verdeTE {
+    background-color: #dcffb0;
+}
+
+.color_verdeSA {
+    background-color: #6e902b;
+}
+
+.color_verdeSP {
+    background-color: #516621;
+}
+
+.color_verdeHE {
+    background-color: #b9da5d;
+}
+
+.color_verdeDE {
+    background-color: #6a815a;
+}
+
+.color_blanco {
+    background-color: #ffffff;
+}
+    
+.color_morado {
+    background-color: #b984ca;
+}
+
+.color_gris {
+    background-color: #979797;
+}
+
+.color_mostaza {
+    background-color: #c6ce56;
+}
+
+.foto_entera {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}

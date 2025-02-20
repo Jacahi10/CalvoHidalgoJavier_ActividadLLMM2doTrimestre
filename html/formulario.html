@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Bad - Que comience el juego!</title>
+    <link rel="stylesheet" href="../css/css.css">
+    <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon">
+</head>
+<body class="fondo_pagina color_fondo_pagina tipografia_resto">
+    <div class="fondo_formulario">
+        <div class="borde_form">
+            <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" >
+                <p>Datos personales</p>
+                <div>Nombre (*)
+                    <input type="text" placeholder="Rellenar" class="largo_form" required>
+                </div>
+                <div>Apellidos (*)
+                    <input type="text" placeholder="Rellenar" class="largo_form" required>
+                </div>
+                <div class="largo_form">Dirección postal:
+                </div>    
+                <div>Calle 
+                    <input type="text" placeholder="Rellenar" class="largo_form">
+                </div>
+                <div>Número 
+                    <input type="number" placeholder="Rellenar" class="largo_form">
+                </div>
+                <div>Piso 
+                    <input type="text" placeholder="Rellenar" class="largo_form">
+                </div>
+                <div>Código Postal 
+                    <input type="text" placeholder="Rellenar" class="largo_form">
+                </div>
+                <div>Ciudad 
+                    <input type="text" placeholder="Rellenar" class="largo_form">
+                </div>
+                <div>DNI 
+                    <input type="text" placeholder="Rellenar" class="largo_form">
+                </div>
+                <div>Correo electrónico 
+                    <input type="email" placeholder="Rellenar" class="largo_form" required>
+                </div>
+                <div>Sexo 
+                    <input class="margen" type="radio" name="sx" value="M">Mujer
+                    <input class="margen" type="radio" name="sx" value="H">Hombre
+                </div>
+                <div>Fecha de nacimiento
+                    <input type="date"  class="margen">
+                </div>
+                <div>Lista de personajes
+                    <input type="text" list="personajes" class="margen">
+                    <datalist id="personajes">
+                        <option>Jessie Pinkman</option>
+                        <option>Walter White</option>
+                        <option>Saul Goodman</option>
+                        <option>Gustavo Fring</option>
+                        <option>Pollos Hermanos</option>
+                        <option>Otros personajes</option>
+                    </datalist>
+                </div>
+                <div class="margen">Comentarios
+                
+                </div>
+                <div> <textarea class="margen largo_texto"  name="comentarios" id="" maxlength="500"></textarea></div>
+               <div class="margen">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+                <input type="file" name="Adjuntar" multiple>
+               </div>
+                
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
